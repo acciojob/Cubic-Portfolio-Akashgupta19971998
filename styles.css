@@ -5,8 +5,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    /* transform-style: preserve-3d;*/
-    /* transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 30, 1); */
+    transform-style: preserve-3d;
+     transform:matrix3d(6.12323e-17, 0, 1, 0, 0, 1, 0, 0, -1, 0, 6.12323e-17, 0, -30, 0, 9.18485e-15, 1);
   }
   
   .cube-1 {
