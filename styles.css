@@ -6,7 +6,8 @@
     top: 50%;
     left: 50%;
     transform-style: preserve-3d;
-    transform: rotateX(240deg) rotateY(-5deg) rotateZ(-155deg);
+    /* transform: rotateX(240deg) rotateY(-5deg) rotateZ(-155deg); */
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 39.716064453125, 1);
   }
   
   .cube-1 {
